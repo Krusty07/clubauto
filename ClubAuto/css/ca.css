@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+p {
+    margin: 0;
+}
 
 h1 {
     font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
@@ -8,39 +12,102 @@ h2 {
     font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
 }
 #title1 {
-    width: 25%;
-    min-width: 300px;
     color: #FFFFFF;
-    overflow: auto;
-    text-align: center;
-    }
+    font-size: 55px;
+}
 body {
     font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
 }
+
+#mainHeader {
+    height: 12%;
+    background-color: #232628;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 
 /*Header tout en haut*/
 #topHeader {
-    text-align: center;
-    padding: 20px;
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    top: 0;
+    height: 100%;
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #232628;
     display: flex;
-    justify-content: center space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFFFFF;
+    width: 77%;
+}
 
+.spaceadresse{
+    MARGIN-TOP: 3px;
 
 }
+
+#adressediv2 {
+    display: flex;
+}
+
+#telephonediv3{
+    display: flex;
+    align-items: center;
+}
+
+.tel{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.logosheader{
+    width: 50px;
+    height: 50px;
+    margin-right: 4px;
+}
+
+.horairesChild{
+    display: flex;
+    align-items: center;
+
+    
+}
+.horairesChild p{
+    margin: 3px;
+}
+
+.color{
+    color: #CC6119;
+    text-transform: uppercase;
+    font-size: 13px;
+
+}
+
+
 /*menu principal*/
 #mainNav {
     color : #232628 ;
     background-color: #ECEFF3 ;
-    position: absolute;
     width: 100%;
-    top: 100px;
-    text-align: right;
-
+    height: 66px;
+    font-weight: 600;
+    font-size: 14px;
     }
+
+#menu{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: center;
+    padding-right: 15%;
+
+    
+}
+.menuhoover{
+    padding-block: 21px;
+    padding-inline: 17px;
+}
 #mainNav a{
     color: #232628 ;
     text-transform: uppercase;
@@ -50,21 +117,17 @@ body {
 }
 #mainNav ul {
     list-style: none;
-    padding: 10px;
     margin: 0;
-    display: flex;
-    justify-content: space-evenly;
+}
+#mainNav li:hover {
+    background-color: #CC6119 ;
+    color: #FFFFFF;
 }
 #mainNav a:hover {
     background-color: #CC6119 ;
     color: #FFFFFF;
 }
-#mainHeader, #mainFooter {
-    background-color: #232628;
-}
-#mainHeader {
-    height: 100px;
-}
+
 .accessibility {
     position : absolute;
     left: -15000px;
