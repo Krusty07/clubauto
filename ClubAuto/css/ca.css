@@ -70,8 +70,6 @@ body {
 .horairesChild{
     display: flex;
     align-items: center;
-
-    
 }
 .horairesChild p{
     margin: 3px;
@@ -128,7 +126,45 @@ body {
     color: #FFFFFF;
 }
 
+/*Titre Header*/
+#headerPicTitle {
+    line-height: 0;
+
+}
+
+#titreheader {
+    background-color: #232628;
+    color: #FFFFFF;
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    padding-left: 15%;
+    font-weight: bold;
+    margin: 0;
+}
+#titreheader2 {
+    color: #CC6119;
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin: 8px;
+
+}
 .accessibility {
     position : absolute;
     left: -15000px;
 }
+
+/*Contenu de la page accueil*/
+.contentBloc {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+.textBloc {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
