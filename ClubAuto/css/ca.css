@@ -13,7 +13,7 @@ h2 {
 }
 #title1 {
     color: #FFFFFF;
-    font-size: 55px;
+    font-size: 30px;
 }
 body {
     font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
@@ -43,11 +43,13 @@ body {
 
 .spaceadresse{
     MARGIN-TOP: 3px;
+    font-size: 13px;
 
 }
 
 #adressediv2 {
     display: flex;
+
 }
 
 #telephonediv3{
@@ -58,7 +60,7 @@ body {
 .tel{
     color: #FFFFFF;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .logosheader{
@@ -73,15 +75,18 @@ body {
 }
 .horairesChild p{
     margin: 3px;
+    font-size: 13px;
+
 }
 
 .color{
     color: #CC6119;
     text-transform: uppercase;
-    font-size: 13px;
-
+    font-size: 11px;
 }
-
+.logosSociaux {
+    display: flex;
+}
 
 /*menu principal*/
 #mainNav {
@@ -164,7 +169,100 @@ body {
     margin-top: 5%;
 }
 .textBloc {
-    margin-left: 3%;
-    margin-right: 3%;
+    padding: 20px;
+    width: 50%;
+}
+.imgbloc {
+    padding: 20px;
+    width: 50%;
+    background-image: url(/images/clients.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imgbloc2 {
+    padding: 20px;
+    width: 50%;
+    background-image: url(/images/entretien.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* bloc louer / acheter */
+.bgRentBuy {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    background-image: url(/images/vehicule2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 40px;
+    }
+
+.bgRent {
+    background-color: #CC6119;
+    opacity: 83%;
+    padding: 40px;
+    margin: 40px;
+    color: #FFFFFF;
+}
+.bgBuy {
+    background-color: red;
+    opacity: 83%;
+    padding: 40px;
+    margin: 40px;
+    color: #FFFFFF;
+}
+.titleRentBuy {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
 }
 
+/* bloc véhicules récents */
+
+.blocVehiculesRecents {
+    background-color: #232628;
+    color: white;
+
+}
+
+#titrevehiculesrecents {
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    font-weight: bold;
+    margin: 0;
+    justify-content: center;
+
+
+}
+
+.traitHorizontal {
+    border-top: 2px solid #CC6119;
+    width : 80%;
+}
+
+.caroussel {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+
+}
+.imgCaroussel {
+    width: 400px;
+}
+
+.blocPrix {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.blocPrixDetails {
+    width: 400px;
+    background-color: grey;
+}
