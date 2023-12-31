@@ -132,10 +132,7 @@ body {
 }
 
 /*Titre Header*/
-#headerPicTitle {
-    line-height: 0;
 
-}
 
 #titreheader {
     background-color: #232628;
@@ -148,6 +145,8 @@ body {
     padding-left: 15%;
     font-weight: bold;
     margin: 0;
+    flex-wrap: wrap;
+
 }
 #titreheader2 {
     color: #CC6119;
@@ -164,13 +163,17 @@ body {
 /*Contenu de la page accueil*/
 .contentBloc {
     display: flex;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 5%;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    padding: 20px;
+
+
 }
 .textBloc {
-    padding: 20px;
     width: 50%;
+    padding: 20px;
+
 }
 .imgbloc {
     padding: 20px;
@@ -450,4 +453,96 @@ footer {
     border-top: 1px solid grey;
     padding-top: 2%;
     padding-bottom: 2%;
+}
+
+/* responsive */
+
+@media screen and (max-width: 700px) {
+    .bgBottom {
+        width: 100%;
+        margin: 0;
+    }
+    #title1 {
+        display: none;
+    }
+    #adressediv2 {
+        display: none;
+    }
+    #horairesspan {
+        display: none;
+    }
+    #logosSociaux {
+        display: none;
+    }
+    #imageHeader {
+        display: none;
+    }
+    #titreheader {
+        height: 140px;
+    }
+    #titreheader2 {
+        margin: 0;
+    }
+    .logosSociaux {
+        display: none;
+    }
+    
+    #mainNav {
+        display: none;
+    }
+    .contentBloc {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 900px;
+    }
+    .imgbloc {
+        height: 50%;
+        width: 100%;
+    }
+    .imgbloc2 {
+        height: 50%;
+        width: 100%;
+    }
+    .textBloc {
+        height: 50%;
+        width: 100%;
+    }
+    .bgRentBuy {
+        padding: 0;
+        margin-top: 0;
+        flex-direction: column;
+    }
+    .bgRent {
+        margin: 0;
+        padding: 34px;
+        width: 86%;
+        margin-top: 10%;
+    }
+    .bgBuy {
+        margin: 0;
+        padding: 34px;
+        width: 86%;
+        margin-top: 10%;
+    }
+    #img2 {
+        display: none;
+    }
+    #img3 {
+        display: none;
+    }
+    .alignChoose {
+        flex-direction: column;
+    }
+    footer {
+        height: 600px;
+    }
+    .footerTop {
+        width: 90%;
+        flex-direction: column;
+        height: 100%;
+    }
+    .footerTopElem {
+        width: 100%;
+    }
+
 }
