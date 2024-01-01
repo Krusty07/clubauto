@@ -486,14 +486,10 @@ footer {
     .logosSociaux {
         display: none;
     }
-    
-    #mainNav {
-        display: none;
-    }
     .contentBloc {
         flex-direction: column;
         justify-content: flex-start;
-        height: 900px;
+        height: 1200px;
     }
     .imgbloc {
         height: 50%;
@@ -543,6 +539,31 @@ footer {
     }
     .footerTopElem {
         width: 100%;
+    }
+    #mainNav {
+        background-color: #232628;
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    #mainNav a {
+        display: flex;
+        color: #f2f2f2;
+        text-align: center;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    #mainNav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    #menu {
+        padding-right: 0;
+        justify-content: center;
+    }
+    ul {
+        padding-inline-start: 0;
     }
 
 }
